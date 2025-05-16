@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Polling App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Vote for Your Favorite Programming Language</h1>
+  
+  <p id="timer" class="timer"></p>
+
+  <form id="pollForm">
+    <label><input type="radio" name="language" value="JavaScript"> JavaScript</label><br>
+    <label><input type="radio" name="language" value="Python"> Python</label><br>
+    <label><input type="radio" name="language" value="Java"> Java</label><br><br>
+    <button type="submit">Submit Vote</button>
+  </form>
+
+  <button id="resetBtn">Reset Poll</button>
+  
+  <p id="result"></p>
+
+  <div class="chart-container">
+    <canvas id="pollChart"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
