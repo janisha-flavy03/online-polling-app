@@ -43,16 +43,6 @@ Fast CDN-backed Delivery
 
 Free Hosting for Personal Projects
 
-Project Structure
-css
-Copy
-Edit
-online-polling-app/
-│
-├── index.html      → Main HTML file
-├── style.css       → CSS styling
-├── script.js       → Voting logic
-└── README.md       → Project info
 About
 This project was developed as part of a Cloud Computing Technology Micro Project for MCA-A (2024–2025), showcasing how simple frontend apps can be deployed on the cloud for real-time interaction without a backend.
 
