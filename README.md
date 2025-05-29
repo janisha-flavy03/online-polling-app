@@ -1,4 +1,5 @@
 Online Polling Web App
+
 A simple, interactive web application that allows users to vote for their favorite programming language. Built using HTML, CSS, and JavaScript, and deployed using Vercel for free cloud hosting.
 
 How to Run the Code
